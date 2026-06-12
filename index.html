@@ -146,8 +146,7 @@ nav a:hover { color: var(--blue); background: var(--blue-light); }
 .trust-badge i { color: var(--orange); font-size: 1.2rem; }
 .trust-badge strong { color: var(--white); font-size: .95rem; display: block; }
 .trust-badge span { color: rgba(255,255,255,.65); font-size: .78rem; }
-/* Floating visual card */
-.hero-visual { position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 42%; max-width: 520px; z-index: 2; }
+/* Floating visual card - removed */
 .hero-img-wrap { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); position: relative; }
 .hero-img-wrap img { width: 100%; height: 480px; object-fit: cover; }
 .hero-img-pill { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); background: var(--white); border-radius: 14px; padding: 14px 22px; display: flex; align-items: center; gap: 12px; box-shadow: var(--shadow-lg); min-width: 240px; }
@@ -461,7 +460,6 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
    RESPONSIVE
 ============================================= */
 @media (max-width: 1024px) {
-  .hero-visual { display: none; }
   .stories-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
   .events-grid { grid-template-columns: 1fr 1fr; }
@@ -587,19 +585,7 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
       </div>
     </div>
   </div>
-  <!-- Floating card -->
-  <div class="hero-visual" aria-hidden="true">
-    <div class="hero-img-wrap">
-      <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=700&q=80" alt="Children in a classroom" loading="lazy" />
-      <div class="hero-img-pill">
-        <div class="pill-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-        <div>
-          <strong>Schools Built This Year</strong>
-          <span>47 new classrooms across 12 countries</span>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </section>
 
 <!-- ======================== STATS RIBBON ======================== -->
@@ -780,7 +766,7 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
     <div class="campaigns-grid">
       <div class="campaign-card reveal">
         <div class="campaign-img">
-          <img src="https://images.unsplash.com/photo-1613521140025-9f1e7e1a0a6a?w=600&q=80" alt="Schools campaign" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80" alt="Schools campaign" loading="lazy" />
         </div>
         <div class="campaign-body">
           <span class="campaign-tag">Education</span>
@@ -1098,7 +1084,7 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
     </div>
     <div class="blog-grid" style="margin-top:52px;">
       <div class="blog-card reveal">
-        <div class="blog-img"><img src="https://images.unsplash.com/photo-1536085802033-28e1ab3f7e4b?w=600&q=80" alt="Impact report" loading="lazy" /></div>
+        <div class="blog-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Impact report" loading="lazy" /></div>
         <div class="blog-body">
           <span class="blog-tag">Impact Report</span>
           <h3>2025 Annual Impact Report: A Record-Breaking Year for HopeBridge</h3>
@@ -1107,7 +1093,7 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
         </div>
       </div>
       <div class="blog-card reveal">
-        <div class="blog-img"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80" alt="Community story" loading="lazy" /></div>
+        <div class="blog-img"><img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&q=80" alt="Community story" loading="lazy" /></div>
         <div class="blog-body">
           <span class="blog-tag">Community Story</span>
           <h3>How One Village in Malawi Became Completely Self-Sufficient</h3>
@@ -1116,7 +1102,7 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
         </div>
       </div>
       <div class="blog-card reveal">
-        <div class="blog-img"><img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80" alt="Volunteer experiences" loading="lazy" /></div>
+        <div class="blog-img"><img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&q=80" alt="Volunteer experiences" loading="lazy" /></div>
         <div class="blog-body">
           <span class="blog-tag">Volunteer Experience</span>
           <h3>"I Left My Finance Job to Volunteer Abroad — and Never Looked Back"</h3>
@@ -1327,7 +1313,7 @@ footer { background: var(--charcoal); color: rgba(255,255,255,.75); padding: 72p
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 HopeBridge Foundation. All rights reserved.</p>
+      <p>© 2026 HopeBridge Foundation. All rights reserved. · Designed by <a href="https://sammiedigital.vercel.app/" target="_blank" rel="noopener" style="color:var(--orange);font-weight:600;transition:opacity .2s;" onmouseover="this.style.opacity='.75'" onmouseout="this.style.opacity='1'">SammieDigital</a></p>
       <div class="footer-links">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Use</a>
